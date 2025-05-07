@@ -2,7 +2,7 @@ package org.example.dao;
 
 import org.example.model.Person;
 
-public interface PersonDao {
+public interface IPersonDao {
     void save(Person person);
 
     Person findPersonById(int id);

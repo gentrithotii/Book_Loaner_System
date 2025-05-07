@@ -2,7 +2,7 @@ package org.example.dao;
 
 import org.example.model.Book;
 
-public interface BookDao {
+public interface IBookDao {
     void save(Book book);
 
     Book findBookById(int id);

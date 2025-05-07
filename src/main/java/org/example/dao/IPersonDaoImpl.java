@@ -2,7 +2,7 @@ package org.example.dao;
 
 import org.example.model.Person;
 
-public class PersonDaoImpl implements PersonDao {
+public class IPersonDaoImpl implements IPersonDao {
     @Override
     public void save(Person person) {
 
